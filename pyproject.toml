@@ -1,0 +1,19 @@
+[project]
+name = "text-to-sql-business-intelligence-and-guardrail-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiomysql>=0.3.2",
+    "dotenv>=0.9.9",
+    "fastmcp>=4.2.6",
+    "sqlglot>=30.35.0",
+]
+
+[project.scripts]
+text-to-sql-business-intelligence-and-guardrail-mcp-server = "text_to_sql_business_intelligence_and_guardrail_mcp_server:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ Text-to-SQL & Business Intelligence Guardrail MCP Server
+# 🛡️ Text-to-SQL & Business Intelligence Guardrail Local MCP Server
 
 **Enterprise-Grade, Schema-Aware AI Data Analyst Bridge with AST Security & Cost Guardrails**
 
